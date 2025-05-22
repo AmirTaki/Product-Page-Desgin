@@ -128,3 +128,8 @@
 .color-select input {
     display: none;
 }
+
+.color-select input:checked + span {
+    transform: scale(.7);
+    box-shadow: 0 0 0 4px #ffffff, 0 0 0 5px #000;
+}
