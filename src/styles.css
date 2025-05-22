@@ -166,5 +166,20 @@ form button {
     margin-top: 50px;
     box-shadow: 0 10px 10px rgba(85, 63, 240, .25);
     cursor: pointer;
+}
 
+.controls {
+    position: absolute;
+    bottom: 40px;
+    right: 20px;
+}
+
+.btn {
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, .5);
+    margin: 10px;
+    cursor: pointer;
 }
